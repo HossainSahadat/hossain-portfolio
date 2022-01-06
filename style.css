@@ -41,12 +41,100 @@ body{
     padding-bottom: 20px;
     font-size: 16px;
     font-weight: 400;
-    color: rgb(73, 69, 69);
+    color: #3E3E3E;
 }
 .header-scroll{
     padding-top: 20px;
     font-size: 16px;
     font-weight: 400;
-    color: rgb(73, 69, 69);
+    color: #3E3E3E;
 }
 /* header part css end */
+/* mission part css start */
+.mission-title h1{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+.miss-year{
+    color: orange;
+}
+.miss-item{
+    display: flex;
+}
+.miss-item-1{
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 4%;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 30px;
+    padding-bottom: 40px;
+}
+.miss-item-2{
+    width: 30%;
+    padding-left: 20px;
+    margin-left: 4%;
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 30px;
+}
+.miss-item-3{
+    width: 30%;
+    padding-left: 20px;
+    margin-left: 4%;
+    margin-right: 50px;
+    background-color: #FFF4D6;
+    border-radius: 30px;
+}
+.miss-item img{
+  width: 40%;
+}
+.mission-area{
+    margin-bottom: 100px;
+}
+.miss-item h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+/* mission part css end */
+/* develop part css start */
+.develop-area{
+    display: flex;
+}
+.dev-item1{
+    width: 40%;
+   
+}
+.dev-item1 img{
+    width: 70%;
+    margin-left: 100px;
+}
+.dev-item2{
+    width: 50%;
+}
+.develop-area{
+    background-image: url(images/shapes/shape10.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+    
+}
+.dev-item2 h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.dev-item2 p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 559px;
+    text-align: justify;
+    color: #3E3E3E;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.dev-title{
+    margin-top: -20px;
+}
+/* develop part css end */
