@@ -101,6 +101,11 @@ body{
 /* develop part css start */
 .develop-area{
     display: flex;
+    margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 170px;
 }
 .dev-item1{
     width: 40%;
@@ -113,13 +118,7 @@ body{
 .dev-item2{
     width: 50%;
 }
-.develop-area{
-    background-image: url(images/shapes/shape10.png);
-    background-repeat: no-repeat;
-    background-position: left;
 
-    
-}
 .dev-item2 h2{
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
@@ -138,3 +137,71 @@ body{
     margin-top: -20px;
 }
 /* develop part css end */
+/* Community part css start */
+.community-area{
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+.com-item1{
+    width: 60%;
+    padding-left: 100px;
+}
+.com-item2{
+    width: 40%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: right;
+}
+.com-item2 img{
+   width: 70%;
+}
+.com-item1 p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 559px;
+    text-align: justify;
+    color: #3E3E3E;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.com-item1 h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+/* client part css start */
+.message-area{
+    background-color:turquoise;
+    text-align:center;
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0px;
+ }
+ 
+ .message-area p{
+     font-size: 20px;
+     font-weight: 500;
+ }
+ .client-name{
+     text-align:center;
+     font-size: 50px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+    
+ }
+ .client-fed{
+     text-align:center;
+     padding: 5px 0px 100px 0px;
+ }
+ .client-title {
+     color: dimgray;
+     margin-top: -18px;
+ }
+ .client-fed img{
+     width: 10%;
+ }
+/* client part css end */
