@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+/* header part css start */
+.top-banner{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+}
+.half-width img{
+    width: 70%;
+}
+.header-dis{
+    padding-top: 90px;
+}
+.header-title{
+    border-left: 4px solid tomato;
+    border-radius: 2px;
+}
+.header-title h1{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 60px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.our-mis{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.header-para{
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(73, 69, 69);
+}
+.header-scroll{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(73, 69, 69);
+}
+/* header part css end */
